@@ -1,7 +1,7 @@
 n = int(input("Ввод: "))
 a = []
 num = 0
-s = 0
+sum = 0
 for i in range(n):
     x = []
     for j in range(n):
@@ -15,6 +15,6 @@ for i in range(n):
     for j in range(i + 1, n)
         if a[i][j] > 0:
             num += 1
-            s += a[i][j]
-print("Сумма:", s)
+            sum += a[i][j]
+print("Сумма:", sum)
 print("Число:", num)
