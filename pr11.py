@@ -34,7 +34,7 @@ second_num.grid(column=2, row=0)
 result_button = Button(calculator_lbl, width=3, text='=', command=result_click)
 result_button.grid(column=3, row=0)
 def check_butt():
-    messagebox.showinfo('', 'Поздравляем! Ваш выбор: {} вариант'.format(selected.get()))
+    messagebox.showinfo('', 'Поздравляем! Вы выбрали: {} вариант'.format(selected.get()))
 
 tab_control.pack(expand=2, fill='both')
 result_lbl = Label(calculator_lbl, width=5)
